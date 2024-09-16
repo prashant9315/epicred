@@ -1,0 +1,118 @@
+.signin-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .signin-left, .signin-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .signin-left {
+    background-color: #f9f9ff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .signin-left h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .google-button img {
+    width: 20px;
+    margin-right: 0.5rem;
+  }
+  
+  .or {
+    margin: 1rem 0;
+    color: #aaa;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signin-button {
+    padding: 0.7rem;
+    background-color: #6a5acd;
+    color:  #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .signin-button:hover {
+    background-color: #5a4bc9;
+  }
+  
+  .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .remember-forgot a {
+    color: #6a5acd;
+    text-decoration: none;
+  }
+  
+  .remember-forgot a:hover {
+    text-decoration: underline;
+  }
+  
+  .signin-right {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .brand-logo img {
+    width: 150px;
+  }
+  
+  .brand-description {
+    text-align: center;
+  }
+  
+  .brand-description h2 {
+    font-size: 1.5rem;
+    color: #6a5acd;
+    margin-bottom: 1rem;
+  }
+  
+  .brand-description img {
+    width: 200px;
+    margin-top: 1rem;
+  }
+  
